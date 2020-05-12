@@ -18,7 +18,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "androidjs": "^2.0.2"
+        "androidjs": "^2.0.2",
+        "androidjs-builder": "^2.1.8"
     },
     "project-name": "app",
     "theme": {
