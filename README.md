@@ -1,10 +1,13 @@
-# README #
+<img src = "https://phaser.io/images/img.png" width = "150px">
 
-Guide d'installation du projet Phaser Js Game Master et du sous projet de l'application mobile.
+<img src = "https://android-js.github.io/img/icon.png" width = "150px">
+
+# Phaser JS Game Master
+Phaser JS Game Master permet de concevoir des jeux avec le Framework [Phaser](https://phaser.io/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
+
+Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [Node.js](https://nodejs.org/).
 
 ### Prérequis ###
-
-Windows:
 
 * Node JS
 * GIT
@@ -16,22 +19,24 @@ Windows:
 Récupérer le repository:
 
 ```bash
-git clone https://lawrenceterpin@bitbucket.org/lawrenceterpin/phaser-js-game-master.git
+git clone https://github.com/lawrenceterpin/phaser-js-game-master.git
 ```
 
-Installer les package nodeJS:
+Installer l'environnement:
 
 ```bash
 npm run setup
 ```
+
+> Cette commande va installer les package du projet et de l'environnement AndroidJS
     
 Lancer le projet sur le serveur local:
 
 ```bash
-npm start
+npm run start
 ```
 
-### Build du projet ###
+### Build du projet et génération de l'APK ###
 
 A la racine du projet.
 
@@ -41,19 +46,10 @@ Tapez la commande:
 npm run build
 ```
     
-> Cette commande va créer le dossier "dist" puis copier son contenu dans le sous projet de l'application (app/[nom_du_projet]).
+> Cette commande va générer le dossier "dist" puis copier son contenu dans l'environnement Android JS (dossier app).
 
-### Installation du sous projet de l'application ###
 
-A la racine du projet, dans le dossier "app".
-
-Tapez la commande:
-
-```bash
-androidjs init
-```
-
-### Génération de l'APK ###
+### Regénérer l'APK dans AndroidJS ###
 
 Dans le dossier du projet de l'application (app/[nom_du_projet]).
 
@@ -62,3 +58,8 @@ Tapez la commande:
 ```bash
 npm run build
 ```
+
+
+### Auteurs ###
+
+* **Lawrence Terpin** _alias_ [@lawrenceterpin](https://gist.github.com/lawrenceterpin)
