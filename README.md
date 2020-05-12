@@ -25,6 +25,10 @@ git clone https://github.com/lawrenceterpin/phaser-js-game-master.git
 Installer l'environnement:
 
 ```bash
+cd phaser-js-game-master
+```
+
+```bash
 npm run setup
 ```
 
