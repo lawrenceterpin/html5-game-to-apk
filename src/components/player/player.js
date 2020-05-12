@@ -5,7 +5,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
         config.scene.add.existing(this);
         config.scene.physics.add.existing(this);
 
-        this.setBounce(0.2);
+        // this.setBounce(0.2);
         this.setCollideWorldBounds(true);
 
         this.body.setSize(60, 175);
@@ -33,7 +33,15 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
         scene.anims.create({
             key: 'idle',
             frames: [{ key: 'player', frame: 'stand' }],
-            frameRate: 10,
+            frameRate: 12,
+        });
+
+        // Animation du saut
+        scene.anims.create({
+            key: 'jump',
+            frames: scene.anims.generateFrameNames('player', { prefix: 'jump', start: 1, end: 2 }),
+            frameRate: 5,
+            repeat: -1
         });
     }
 
@@ -43,22 +51,33 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
             this.body.setVelocityX(this.vitesseJoueur);
             this.anims.play('walk', true);
             this.flipX = false; // use the original sprite looking to the right
+
+            if (cursorKeys['up'].isDown) {
+                this.anims.play('jump', true);
+            }
         }
         else if (cursorKeys['left'].isDown) {
             this.body.setVelocityX(-this.vitesseJoueur);
             this.anims.play('walk', true); // walk left
             this.flipX = true; // flip the sprite to the left
+
+
+            if (cursorKeys['up'].isDown) {
+                this.anims.play('jump', true);
+            }
         }
         else {
-            this.body.setVelocityX(0);
-            this.anims.play('idle', true);
+            if (this.body.onFloor()) {
+                this.body.setVelocityX(0);
+                this.anims.play('idle', true);
+            }
         }
 
         // saut 
         if (cursorKeys['up'].isDown && this.body.onFloor()) {
             this.jump = true;
             this.body.setVelocityY(-500);
-            this.anims.play('idle', true);
+            this.anims.play('jump', true);
         }
     }
 }

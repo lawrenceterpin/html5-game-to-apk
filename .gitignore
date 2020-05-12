@@ -8,8 +8,10 @@ Thumbs.db
 
 # Vendors
 node_modules/
+app/node_modules/
 package-lock.json
 
 # Build
 dist/
+app/dist/
 /npm-debug.log
