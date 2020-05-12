@@ -1,6 +1,6 @@
 <img src = "https://phaser.io/images/img.png" align="left" width ="150px">
 
-<img src = "https://android-js.github.io/img/icon.png" align="left" width ="150px">
+<img src = "https://android-js.github.io/img/icon.png" width ="150px">
 
 # Phaser JS Game Master
 Phaser JS Game Master permet de concevoir des jeux avec le Framework [Phaser](https://phaser.io/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
