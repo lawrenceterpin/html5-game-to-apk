@@ -1,33 +1,26 @@
 {
   "name": "phaser-js-game-to-apk",
   "version": "1.0.0",
-  "description": "Environnement d'un jeu Phaser JS généré en application mobile",
-  "main": "src/index.js",
+  "description": "",
   "scripts": {
-    "remove-old-folder-app": "rmdir \"app/views\" /S /Q",
-    "copy:dist": "xcopy \"dist\" \"app/views\" /s /i",
-    "copy-dist": "npm run remove-old-folder-app && npm run copy:dist",
-    "setup": "npm i && cd app && npm i",
-    "build-apk": "cd app && npm run build",
-    "production": "webpack --mode production --config webpack.config.prod.js && npm run copy-dist && npm run build-apk",
-    "build": "webpack --mode development --config webpack.config.dev.js && npm run copy-dist && npm run build-apk",
-    "start": "webpack-dev-server --config webpack.config.dev.js --open"
+    "install-androidjs-builder": "cd app && npm i && cd \"../\"",
+    "install-phaser": "cd phaser && npm i && cd \"../\" && npm run install-androidjs-builder",
+    "install-pixi": "cd pixi && npm i && cd \"../\" && npm run install-androidjs-builder",
+    "install-all": "npm run install-phaser && npm run install-pixi",
+    "remove-folder-app": "rmdir \"app/views\" /S /Q",
+    "build-phaser": "npm run remove-folder-app && cd phaser && npm run build",
+    "build-pixi": "npm run remove-folder-app && cd pixi && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawrenceterpin/phaser-js-game-to-apk.git"
   },
   "author": "Lawrence Terpin",
-  "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "babel-loader": "^8.1.0",
-    "copy-webpack-plugin": "^5.0.3",
-    "html-webpack-plugin": "^3.2.0",
-    "terser-webpack-plugin": "^3.0.1",
-    "tile-extruder": "^2.0.5",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+  "bugs": {
+    "url": "https://github.com/lawrenceterpin/phaser-js-game-to-apk/issues"
   },
+  "homepage": "https://github.com/lawrenceterpin/phaser-js-game-to-apk#readme",
   "dependencies": {
-    "phaser": "^3.23.0",
-    "phaser3-rex-plugins": "^1.1.14"
+    "androidjs": "^2.0.2"
   }
 }

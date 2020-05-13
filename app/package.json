@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "name": "phaser-js-game-to-apk",
-    "app-name": "phaser_js_game_to_apk",
+    "name": "html5-game-to-apk",
+    "app-name": "html5_game_to_apk",
     "package-name": "webview",
     "project-type": "webview",
     "icon": "./views/assets/icon/icon.png",
@@ -19,7 +19,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "androidjs": "^2.0.2",
         "androidjs-builder": "^2.1.8"
     },
     "project-name": "app",
