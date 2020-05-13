@@ -69,9 +69,9 @@ Tapez la commande:
 npm run build
 ```
 
-### Options ###
+### Options Android JS ###
 
-Dans le dossier du projet de l'application (dans **app/package.json**).
+Dans **app/package.json**.
 
 Modifier le nom de l'application:
 
@@ -88,6 +88,9 @@ Modifier l'orientation de l'écran (**portrait** | **paysage**):
   "screenOrientation": "portrait",
 }
 ```
+
+Voir la [Documentation d'Android JS](https://android-js.github.io/docs/).
+
 
 ### Auteurs ###
 
