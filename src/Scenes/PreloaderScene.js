@@ -80,13 +80,13 @@ export default class PreloaderScene extends Phaser.Scene {
 
 
     // map made with Tiled in JSON format
-    this.load.tilemapTiledJSON('map', '../src/assets/map.json');
+    this.load.tilemapTiledJSON('map', './assets/map.json');
 
     // tiles in spritesheet 
-    this.load.image('sol', '../src/assets/sol.png');
-    this.load.image('herbe', '../src/assets/herbe.png');
+    this.load.image('sol', './assets/sol.png');
+    this.load.image('herbe', './assets/herbe.png');
     // player animations
-    this.load.atlas('player', '../src/assets/player/player.png', '../src/assets/player/player.json');
+    this.load.atlas('player', './assets/player/player.png', './assets/player/player.json');
 
   }
 

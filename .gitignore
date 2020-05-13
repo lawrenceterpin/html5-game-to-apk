@@ -12,6 +12,7 @@ app/node_modules/
 package-lock.json
 
 # Build
-dist/
+assets-save
 app/dist/
+app/views/
 /npm-debug.log
