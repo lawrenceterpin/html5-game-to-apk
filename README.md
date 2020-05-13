@@ -56,7 +56,7 @@ Build de production:
 npm run production
 ```    
     
-> Cette commande va générer le dossier "dist" puis copier son contenu dans l'environnement Android JS (dossier **app**).
+> Cette commande va lancer le build du projet et générer l'APK dans AndroidJS (dossier **app**).
 
 
 ### Regénérer l'APK dans AndroidJS ###
