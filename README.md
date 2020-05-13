@@ -34,7 +34,7 @@ cd html5-game-to-apk
 npm run install-all
 ```
 
-> Cette commande va installer les package de Phaser et Pixi ainsi que l'environnement AndroidJS
+> Cette commande va installer les package de tous les frameworks ainsi que AndroidJS-builder
 
 ### Installer les Framework individuellement ###
 
