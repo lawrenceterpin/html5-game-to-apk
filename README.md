@@ -50,12 +50,12 @@ Tapez la commande:
 npm run build
 ```
     
-> Cette commande va générer le dossier "dist" puis copier son contenu dans l'environnement Android JS (dossier app).
+> Cette commande va générer le dossier "dist" puis copier son contenu dans l'environnement Android JS (dossier **app**).
 
 
 ### Regénérer l'APK dans AndroidJS ###
 
-Dans le dossier du projet de l'application (app/[nom_du_projet]).
+Dans le dossier du projet de l'application (dossier **app**).
 
 Tapez la commande:
 
