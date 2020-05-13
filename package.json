@@ -9,7 +9,9 @@
     "install-all": "npm run install-phaser && npm run install-pixi",
     "remove-folder-app": "rmdir \"app/views\" /S /Q",
     "build-phaser": "npm run remove-folder-app && cd phaser && npm run build",
-    "build-pixi": "npm run remove-folder-app && cd pixi && npm run build"
+    "build-pixi": "npm run remove-folder-app && cd pixi && npm run build",
+    "phaser": "cd phaser && npm run start",
+    "pixi": "cd pixi && npm run start"
   },
   "repository": {
     "type": "git",
