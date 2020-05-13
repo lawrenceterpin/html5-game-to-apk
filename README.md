@@ -44,11 +44,17 @@ npm run start
 
 A la racine du projet.
 
-Tapez la commande:
+Build de développement:
 
 ```bash
 npm run build
 ```
+
+Build de production:
+
+```bash
+npm run production
+```    
     
 > Cette commande va générer le dossier "dist" puis copier son contenu dans l'environnement Android JS (dossier **app**).
 
