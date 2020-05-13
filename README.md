@@ -38,6 +38,8 @@ npm run install-all
 
 ### Installer les Framework individuellement ###
 
+A la racine du projet.
+
 Installer Phaser:
 
 ```bash
@@ -52,7 +54,9 @@ npm run install-pixi
 
 > Ces commandes vont installer les package et l'environnement AndroidJS
 
-### Lancer les Framework individuellement ###
+### Lancer les Framework ###
+
+A la racine du projet.
     
 Lancer le projet Phaser:
 
@@ -81,7 +85,6 @@ Build de Pixi:
 ```bash
 npm run build-pixi
 ```
-
     
 > Cette commande va lancer le build du projet et générer l'APK (dossier **app**).
 > Le fichier .apk se trouve dans **app/dist**
