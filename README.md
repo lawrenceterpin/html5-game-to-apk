@@ -16,7 +16,7 @@ Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [
 * Android Studio (pour Android SDK)
 * Java JDK
 
-### Installation du projet ###
+### Installation ###
 
 Récupérer le repository:
 
@@ -34,7 +34,7 @@ cd html5-game-to-apk
 npm run install-all
 ```
 
-> Cette commande va installer les package de tous les frameworks ainsi que AndroidJS-builder
+> "npm run install-all" va installer les package de tous les frameworks ainsi que AndroidJS-builder
 
 ### Installer les Framework individuellement ###
 
