@@ -1,7 +1,7 @@
 {
-  "name": "phaser-js-game-master",
-  "version": "1.1.0",
-  "description": "Environnement master d'un jeu Phaser JS",
+  "name": "phaser-js-game-to-apk",
+  "version": "1.0.0",
+  "description": "Environnement d'un jeu Phaser JS généré en application mobile",
   "main": "src/index.js",
   "scripts": {
     "remove-old-folder-app": "rmdir \"app/views\" /S /Q",

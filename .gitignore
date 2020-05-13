@@ -10,9 +10,11 @@ Thumbs.db
 node_modules/
 app/node_modules/
 package-lock.json
+app/package-lock.json
 
 # Build
-assets-save
+dist/
 app/dist/
+assets-save/
 app/views/
 /npm-debug.log

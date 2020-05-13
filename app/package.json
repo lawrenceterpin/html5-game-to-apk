@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "name": "app",
-    "app-name": "app",
+    "name": "phaser-js-game-to-apk",
+    "app-name": "phaser_js_game_to_apk",
     "package-name": "webview",
     "project-type": "webview",
     "icon": "./views/assets/icon/icon.png",
@@ -13,7 +13,8 @@
     "main": "views/main.js",
     "scripts": {
         "start:dev": "node .",
-        "build": "androidjs build"
+        "build": "androidjs build",
+        "release": "androidjs build --release"
     },
     "author": "",
     "license": "ISC",
@@ -22,6 +23,7 @@
         "androidjs-builder": "^2.1.8"
     },
     "project-name": "app",
+    "screenOrientation": "portrait",
     "theme": {
         "fullScreen": true
     }
