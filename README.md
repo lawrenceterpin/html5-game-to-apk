@@ -2,8 +2,8 @@
 
 <img src = "https://android-js.github.io/img/icon.png" width ="150px">
 
-# Phaser JS Game To Apk
-Phaser JS Game To Apk permet de concevoir des jeux avec le Framework [Phaser](https://phaser.io/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
+#Html5 Game To Apk
+Html5 Game To Apk permet de concevoir des jeux avec les Framework [Phaser](https://phaser.io/) et [Pixi](https://www.pixijs.com/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
 
 Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [Node.js](https://nodejs.org/).
 
@@ -19,42 +19,65 @@ Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [
 Récupérer le repository:
 
 ```bash
-git clone https://github.com/lawrenceterpin/phaser-js-game-to-apk.git
+git clone https://github.com/lawrenceterpin/html5-game-to-apk.git
 ```
 
 Installer l'environnement:
 
 ```bash
-cd phaser-js-game-to-apk
+cd html5-game-to-apk
 ```
 
 ```bash
-npm run setup
+npm run install-all
 ```
 
-> Cette commande va installer les package du projet et de l'environnement AndroidJS
+### Installer les Framework individuellement ###
+
+Installer Phaser:
+
+```bash
+npm run install-phaser
+```
+
+Installer Pixi:
+
+```bash
+npm run install-pixi
+```
+
+> Ces commandes vont installer les package et l'environnement AndroidJS
+
+### Lancer les Framework individuellement ###
     
-Lancer le projet sur le serveur local:
+Lancer le projet Phaser:
 
 ```bash
-npm run start
+npm run phaser
+```
+
+Lancer le projet Pixi:
+
+```bash
+npm run pixi
 ```
 
 ### Build du projet et génération de l'APK ###
 
 A la racine du projet.
 
-Build de développement:
+Build de Phaser:
 
 ```bash
-npm run build
+npm run build-phaser
 ```
 
-Build de production:
+Build de Pixi:
 
 ```bash
-npm run production
-```    
+npm run build-pixi
+```
+
     
 > Cette commande va lancer le build du projet et générer l'APK (dossier **app**).
 > Le fichier .apk se trouve dans **app/dist**
