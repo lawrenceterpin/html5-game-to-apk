@@ -2,8 +2,8 @@
 
 <img src = "https://android-js.github.io/img/icon.png" width ="150px">
 
-# Phaser JS Game Master
-Phaser JS Game Master permet de concevoir des jeux avec le Framework [Phaser](https://phaser.io/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
+# Phaser JS Game To Apk
+Phaser JS Game To Apk permet de concevoir des jeux avec le Framework [Phaser](https://phaser.io/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
 
 Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [Node.js](https://nodejs.org/).
 
@@ -19,13 +19,13 @@ Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [
 Récupérer le repository:
 
 ```bash
-git clone https://github.com/lawrenceterpin/phaser-js-game-master.git
+git clone https://github.com/lawrenceterpin/phaser-js-game-to-apk.git
 ```
 
 Installer l'environnement:
 
 ```bash
-cd phaser-js-game-master
+cd phaser-js-game-to-apk
 ```
 
 ```bash
