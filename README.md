@@ -5,7 +5,7 @@
 <img src = "https://android-js.github.io/img/icon.png" width ="150px">
 
 # Html5 Game To Apk #
-**Html5 Game To Apk** permet de conc#evoir des jeux avec les Framework [Phaser](https://phaser.io/) et [Pixi](https://www.pixijs.com/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
+**Html5 Game To Apk** permet de concevoir des jeux avec les Framework [Phaser](https://phaser.io/) et [Pixi](https://www.pixijs.com/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
 
 Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [Node.js](https://nodejs.org/).
 
