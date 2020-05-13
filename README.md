@@ -69,6 +69,28 @@ Tapez la commande:
 npm run build
 ```
 
+### Options Android JS ###
+
+Dans **app/package.json**.
+
+Modifier le nom de l'application:
+
+```json
+{
+  "app-name": "phaser-js-game-to-apk",
+}
+```
+
+Modifier l'orientation de l'écran (**portrait** | **paysage**):
+
+```json
+{
+  "screenOrientation": "portrait",
+}
+```
+
+Voir la [Documentation d'Android JS](https://android-js.github.io/docs/).
+
 
 ### Auteurs ###
 
