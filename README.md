@@ -56,10 +56,10 @@ Build de production:
 npm run production
 ```    
     
-> Cette commande va lancer le build du projet et générer l'APK dans AndroidJS (dossier **app**).
+> Cette commande va lancer le build du projet et générer l'APK (dossier **app**).
+> Le fichier .apk se trouve dans **app/dist**
 
-
-### Regénérer l'APK dans AndroidJS ###
+### Regénérer l'APK du projet ###
 
 Dans le dossier du projet de l'application (dossier **app**).
 
