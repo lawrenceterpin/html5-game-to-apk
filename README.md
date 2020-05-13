@@ -34,8 +34,6 @@ cd html5-game-to-apk
 npm run install-all
 ```
 
-> "npm run install-all" va installer les package de tous les frameworks ainsi que AndroidJS-builder
-
 ### Lancer les Framework ###
 
 A la racine du projet.
