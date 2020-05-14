@@ -5,7 +5,7 @@
 <img src = "https://android-js.github.io/img/icon.png" width ="150px">
 
 # Html5 Game To Apk #
-**Html5 Game To Apk** permet de conc#evoir des jeux avec les Framework [Phaser](https://phaser.io/) et [Pixi](https://www.pixijs.com/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
+**Html5 Game To Apk** permet de concevoir des jeux avec les Framework [Phaser](https://phaser.io/) et [Pixi](https://www.pixijs.com/) et d'en générer une application mobile, au format APK via le framework [Android JS](https://android-js.github.io/).
 
 Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [Node.js](https://nodejs.org/).
 
@@ -16,7 +16,7 @@ Ce projet est écrit en **html**, **css** et **javascript** et fonctionne avec [
 * Android Studio (pour Android SDK)
 * Java JDK
 
-### Installation du projet ###
+### Installation ###
 
 Récupérer le repository:
 
@@ -33,26 +33,6 @@ cd html5-game-to-apk
 ```bash
 npm run install-all
 ```
-
-> Cette commande va installer les package de tous les frameworks ainsi que AndroidJS-builder
-
-### Installer les Framework individuellement ###
-
-A la racine du projet.
-
-Installer Phaser:
-
-```bash
-npm run install-phaser
-```
-
-Installer Pixi:
-
-```bash
-npm run install-pixi
-```
-
-> Ces commandes vont installer les package et l'environnement AndroidJS
 
 ### Lancer les Framework ###
 
@@ -88,6 +68,24 @@ npm run build-pixi
     
 > Cette commande va lancer le build du projet et générer l'APK (dossier **app**).
 > Le fichier .apk se trouve dans **app/dist**
+
+### Installer les Framework individuellement ###
+
+A la racine du projet.
+
+Installer Phaser:
+
+```bash
+npm run install-phaser
+```
+
+Installer Pixi:
+
+```bash
+npm run install-pixi
+```
+
+> Ces commandes vont installer les package et l'environnement AndroidJS
 
 ### Regénérer l'APK du projet ###
 
