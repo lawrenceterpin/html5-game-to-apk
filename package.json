@@ -1,12 +1,12 @@
 {
-  "name": "phaser-js-game-to-apk",
+  "name": "html5-game-to-apk",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "install-androidjs-builder": "cd app && npm i && cd \"../\"",
     "install-phaser": "cd phaser && npm i && cd \"../\" && npm run install-androidjs-builder",
     "install-pixi": "cd pixi && npm i && cd \"../\" && npm run install-androidjs-builder",
-    "install-all": "npm run install-phaser && npm run install-pixi",
+    "install-all": "npm i && npm run install-phaser && npm run install-pixi",
     "remove-folder-app": "rmdir \"app/views\" /S /Q",
     "build-phaser": "npm run remove-folder-app && cd phaser && npm run build",
     "build-pixi": "npm run remove-folder-app && cd pixi && npm run build",
@@ -15,13 +15,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lawrenceterpin/phaser-js-game-to-apk.git"
+    "url": "git+https://github.com/lawrenceterpin/html5-game-to-apk.git"
   },
   "author": "Lawrence Terpin",
   "bugs": {
-    "url": "https://github.com/lawrenceterpin/phaser-js-game-to-apk/issues"
+    "url": "https://github.com/lawrenceterpin/html5-game-to-apk/issues"
   },
-  "homepage": "https://github.com/lawrenceterpin/phaser-js-game-to-apk#readme",
+  "homepage": "https://github.com/lawrenceterpin/html5-game-to-apk#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "terser-webpack-plugin": "^3.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
   "dependencies": {
     "androidjs": "^2.0.2"
   }

@@ -15,14 +15,11 @@ package-lock.json
 phaser/package-lock.json
 pixi/package-lock.json
 app/package-lock.json
-phaser/app/package-lock.json
-pixi/app/package-lock.json
 
 # Build
 dist/
 phaser/dist/
 pixi/dist/
 app/dist/
-app/views/
 assets-save/
 /npm-debug.log
